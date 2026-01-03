@@ -1,0 +1,133 @@
+@media screen and (max-width:520px) {
+  
+#hero_area{
+  width: 100%;
+  padding: 30px 0;
+
+}
+#hero_main_container{
+  width: 96%;
+
+
+}
+
+
+.hero_download{
+  margin-top: 20px;
+flex-direction: column;
+gap: 25px;
+}
+
+
+#visible_hero{
+padding:30px 0;
+
+}
+
+.visible_hero_mainab{
+
+  width: 96%;
+
+}
+
+
+
+.visible_hero_mainshow{
+flex-direction: column;
+
+
+}
+
+
+.com_visible{
+  width: 100%;
+margin: 0 auto;
+}
+
+
+.com_visible_descrip{
+width: 100%;
+  display: flex;
+}
+
+
+
+#workflow_main{
+  width: 96%;
+}
+
+.workflow_show_aream{
+
+  width:96%;
+  margin: 25px auto; 
+
+}
+
+
+.top_feature_area{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 30px;
+  gap: 25px;
+
+}
+
+
+.bottom_feature_area{
+  width: 96%;
+
+flex-direction: column;
+  margin-top: 100px;
+align-items: center;
+  gap: 30px;
+
+}
+
+#downloadSector{
+  padding: 70px 0;
+}
+#downloadSector_main{
+  width: 96%;
+margin: 0 auto;
+
+}
+
+.downloadSector_dwnload_area{
+flex-direction: column;
+gap: 25px;
+margin: 30px 0;
+}
+
+.footer_main{
+  padding: 25px 90px;
+flex-direction: column;
+}
+
+.footer_left_main{
+ flex-direction: column;
+ width: 100%;
+}
+
+
+.option_other{
+margin-top: 25px;
+grid-template-columns: 1fr 1fr;
+}
+
+
+.footer_right_main{
+  width: 96%;}
+
+
+  .frm{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+  }
+
+
+
+
+}
