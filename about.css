@@ -12,6 +12,13 @@
      font-family: "Bai Jamjuree", sans-serif;
   }
 
+  body::selection{
+    background-color: purple;
+    color: #fff;
+  }
+
+
+
 
     .about{
       /* width: 310px; */
@@ -33,6 +40,8 @@ cursor: pointer;
       font-weight: 500;
 
     }
+
+    
 .sub_about p{
   padding: 0 10px 0;
 }
