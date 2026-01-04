@@ -400,6 +400,7 @@ gap: 25px;
 }
 
 .copyright a{
+  color: purple;
   text-decoration: none;
   border-bottom: 2px solid var(--green500);
 }
