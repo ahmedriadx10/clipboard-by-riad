@@ -77,6 +77,11 @@ h1,h2,h3,h4,h5,h6{
   color: var(--gray700);
 }
 
+.hero_about_mch h2:after{
+  content:"O(∩_∩)O🔥";
+margin-left: 15px;
+}
+
 .hero_about_mch p{
   color:gray;
   font-weight: 400;
@@ -423,7 +428,6 @@ transition: 0.3s linear;
 .logo_area img{
   cursor: pointer;
 }
-
 
 
 
