@@ -39,15 +39,24 @@ flex-direction: column;
 }
 
 
+
+.oparator_area{
+ width: 96%;
+justify-content: center;
+}
 .com_visible{
   width: 100%;
-margin: 0 auto;
+margin-bottom: 25px;
+margin-left: 10px;
+
 }
 
 
 .com_visible_descrip{
 width: 100%;
-  display: flex;
+margin-top: 20px auto;
+  text-align: center;
+  padding: 15px 20px 19px;
 }
 
 
