@@ -407,6 +407,24 @@ gap: 25px;
 
 
 
+.feature_area_topsimple,.bottom_feature_logo{
+  /* border: 1px solid black; */
+  padding:10px ;
+  cursor: pointer;
+  border-radius: 10px;
+transition: 0.3s linear;
+}
+
+
+.feature_area_topsimple:hover,.bottom_feature_logo:hover{
+  box-shadow:1px 1px 10px var(--green500),-1px -1px 10px var(--blue100);
+}
+
+.logo_area img{
+  cursor: pointer;
+}
+
+
 
 
 
