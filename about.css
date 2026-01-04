@@ -129,3 +129,25 @@ padding: 8px 10px;
 border-radius: 5px;
 box-shadow: 0 5px 10px purple;
 }
+
+
+/* about profile responsive for mobile */
+
+
+@media screen and (max-width:520px) {
+  
+
+  .main_cotainer{
+
+    width: 97%;
+    grid-template-columns:1fr;
+    row-gap: 25px;
+  }
+
+  .left_container,.right_container{
+    height: 370px;
+  }
+
+
+
+}
