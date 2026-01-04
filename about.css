@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+
+  body{
+     font-family: "Bai Jamjuree", sans-serif;
+  }
+
+
+    .about{
+      /* width: 310px; */
+border-top: 4px solid blue;
+border-radius: 3px;
+transition: 0.3s linear;
+cursor: pointer;
+    }
+
+    .sub_about{
+      padding: 15px 10px;
+      text-align: center;
+
+    }
+
+    .sub_about h2{
+      font-size: 30px;
+      margin-bottom: 10px;
+      font-weight: 500;
+
+    }
+.sub_about p{
+  padding: 0 10px 0;
+}
+
+
+.main_cotainer{
+  width: 1000px;
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns:30% 30% 30%;
+  justify-content: space-around;
+ 
+}
+
+
+.left_container,.right_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  transition: 0.3s linear;
+  cursor: pointer;
+
+}
+
+
+
+
+.left_container h3,.right_container h3{
+  font-size: 30px;
+  margin-bottom: 15px;
+
+}
+
+.left_container p ,.right_container p{
+  padding: 0 15px 0;
+ 
+  text-align: center;
+}
+
+
+.about,.left_container,.right_container{
+  box-shadow: 0 0 25px #ddd;
+}
+
+.upd:after{
+  content: '🔥';
+}
+.dein:after{
+ content: '😍';
+ margin-left: 3px;
+}
+
+
+.left_container{
+border-left:4px solid red;
+border-radius: 3px 5px 5px 3px;
+}
+
+.right_container{
+  border-right: 4px solid green;
+  border-radius: 5px 3px 3px 5px;
+}
+
+
+.right_container:hover{
+  box-shadow: 0 0 15px green;
+
+}
+
+.left_container:hover{
+  box-shadow: 0 0 15px red;
+  
+}
+
+.right_container ul{
+  margin-top: 16px;
+}
+
+
+
+.about:hover{
+  box-shadow: 0 0 15px blue;
+}
+
+
+.back_btn{
+margin-top: 15px;
+text-decoration: none;
+color: #fff;
+background: linear-gradient(to right,red,blue);
+padding: 8px 10px;
+border-radius: 5px;
+box-shadow: 0 5px 10px purple;
+}
